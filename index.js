@@ -1,5 +1,15 @@
 "use strict";
 
+// js for switch clock format
+const formatSwitchBtn = document.querySelector(".format-switch-btn");
+
+formatSwitchBtn.addEventListener("click", function() { 
+    formatSwitchBtn.classList.toggle("active");
+
+    
+});
+
+
 function clock() {
   var today = new Date();
 

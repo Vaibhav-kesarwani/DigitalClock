@@ -175,4 +175,12 @@ body {
   border-radius: 50%;
   box-shadow: 0 5px 25px #ff5e9a;
   transform: translateX(-10px);
+  transition: 0.75s ease;
+  transition-property: background, transform;
+}
+
+.format-switch-btn.active:before {
+    background: #0bff8d;
+    box-shadow: 0 5px 25px #0bff8d;
+    transform: translateX(10px);
 }
