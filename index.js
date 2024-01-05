@@ -3,12 +3,17 @@
 // js for switch clock format
 const formatSwitchBtn = document.querySelector(".format-switch-btn");
 
-formatSwitchBtn.addEventListener("click", function() { 
-    formatSwitchBtn.classList.toggle("active");
+formatSwitchBtn.addEventListener("click", function () {
+  formatSwitchBtn.classList.toggle("active");
 
-    
+  var formatValue = formatSwitchBtn.getAttribute("data-format");
+
+  if (formatValue === "12") {
+    formatSwitchBtn.setAttribute("data-format", "24");
+  } else {
+    formatSwitchBtn.setAttribute("data-format", "12");
+  }
 });
-
 
 function clock() {
   var today = new Date();
@@ -24,7 +29,11 @@ function clock() {
   }
 
   // set the 12-hour clock format
-  hours = hours > 12 ? hours % 12 : hours;
+  var formatValue = formatSwitchBtn.getAttribute("data-format");
+
+  if (formatValue === "12") {
+    hours = hours > 12 ? hours % 12 : hours;
+  }
 
   // add the 0 for the value lower than 10
   if (hours < 10) {
@@ -59,3 +68,17 @@ document.querySelector(".month-name").innerHTML = monthName;
 document.querySelector(".day-name").innerHTML = dayName;
 document.querySelector(".day-number").innerHTML = dayNumber;
 document.querySelector(".year").innerHTML = year;
+
+// js for dot menu toggle
+const dotmenuBtn = document.querySelector(".dot-menu-btn");
+const dotMenu = document.querySelector(".dot-menu");
+
+dotmenuBtn.addEventListener("click", () => {
+  dotMenu.classList.toggle("active");
+});
+
+document.addEventListener("click", (e) => {
+  if (e.target.id !== "active-menu") {
+    dotMenu.classList.remove("active");
+  }
+});

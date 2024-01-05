@@ -134,11 +134,21 @@ body {
 
 .dot-menu {
   z-index: 999;
+  position: absolute;
+  top: 7px;
+  right: 5px;
   list-style: none;
   background: #353e54;
   padding: 10px 20px;
   border-radius: 5px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.dot-menu.active {
+  visibility: visible;
+  opacity: 1;
 }
 
 .menu-item {
@@ -180,7 +190,7 @@ body {
 }
 
 .format-switch-btn.active:before {
-    background: #0bff8d;
-    box-shadow: 0 5px 25px #0bff8d;
-    transform: translateX(10px);
+  background: #0bff8d;
+  box-shadow: 0 5px 25px #0bff8d;
+  transform: translateX(10px);
 }
