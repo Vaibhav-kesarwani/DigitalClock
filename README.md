@@ -13,25 +13,25 @@
 
 ## Key Features:
 
--🕒 **Accurate Time Display:** Displays the current time with precision, providing accurate hour, minute, and second information.
+🕒 **Accurate Time Display:** Displays the current time with precision, providing accurate hour, minute, and second information.
 
--🌈 **Customizable Interface:** Personalize the clock's appearance with a range of color schemes and layout options to suit your style.
+🌈 **Customizable Interface:** Personalize the clock's appearance with a range of color schemes and layout options to suit your style.
 
--🌐 **Multiple Time Formats:** Switch between 24-hour and AM/PM time formats effortlessly to match your preference.
+🌐 **Multiple Time Formats:** Switch between 24-hour and AM/PM time formats effortlessly to match your preference.
 
--🔔 **Alarm Functionality:** Set alarms and reminders directly within the clock interface for added convenience.
+🔔 **Alarm Functionality:** Set alarms and reminders directly within the clock interface for added convenience.
 
--📅 **Date Display:** In addition to time, the clock conveniently showcases the current date.
+📅 **Date Display:** In addition to time, the clock conveniently showcases the current date.
 
--🚀 **Smooth Performance:** Experience seamless performance and fluid transitions for an optimized user experience.
+🚀 **Smooth Performance:** Experience seamless performance and fluid transitions for an optimized user experience.
 
--🔧 **User-Friendly Configuration:** Easy-to-use settings panel allows for quick adjustments and configurations without hassle.
+🔧 **User-Friendly Configuration:** Easy-to-use settings panel allows for quick adjustments and configurations without hassle.
 
--🔒 **Privacy Focus:** Ensures data privacy and security without any intrusive tracking or data collection.
+🔒 **Privacy Focus:** Ensures data privacy and security without any intrusive tracking or data collection.
 
--📱 **Responsive Design:** Seamlessly adapts to various screen sizes, making it accessible across different devices.
+📱 **Responsive Design:** Seamlessly adapts to various screen sizes, making it accessible across different devices.
 
--🌟 **Open Source:** Built as an open-source project, encouraging collaboration, contributions, and improvements from the community.
+🌟 **Open Source:** Built as an open-source project, encouraging collaboration, contributions, and improvements from the community.
 
 ## Setting up HTML/CSS/JS Project Locally from GitHub
 
