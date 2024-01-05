@@ -60,14 +60,14 @@ var updateClock = setInterval(clock, 1000);
 var today = new Date();
 
 const dayNumber = today.getDate();
-const year = today.getFullYear();
+// const year = today.getFullYear();
 const dayName = today.toLocaleString("default", { weekday: "long" });
 const monthName = today.toLocaleString("default", { month: "short" });
 
 document.querySelector(".month-name").innerHTML = monthName;
 document.querySelector(".day-name").innerHTML = dayName;
 document.querySelector(".day-number").innerHTML = dayNumber;
-document.querySelector(".year").innerHTML = year;
+// document.querySelector(".year").innerHTML = year;
 
 // js for dot menu toggle
 const dotmenuBtn = document.querySelector(".dot-menu-btn");
